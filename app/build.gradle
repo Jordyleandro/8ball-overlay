@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.poollines.android'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.poollines.android"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
+dependencies {
+}
